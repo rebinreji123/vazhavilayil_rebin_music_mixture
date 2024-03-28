@@ -1,0 +1,127 @@
+body {
+
+    display: flex;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    background-position: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  .top{
+  color: white;
+  font-size: 60px;
+  font-family: 'Borel', cursive;
+  font-family: 'Kanit', sans-serif;
+  }
+  .top:hover{
+    color: red;
+  }
+  #resetButton{
+    border-radius: 8px;
+    width: 70px;
+    height: 40px;
+  }
+  #resetButton:hover{
+    background-color: orangered;
+  }
+  #pauseButton{
+    border-radius: 8px;
+    width: 70px;
+    height: 40px;
+  }
+  #pauseButton:hover{
+    background-color: orangered;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    background-color: darkgray;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon img {
+    width: 100%; /* Set the image width to 100% of the icon width */
+    height: 100%; /* Set the image height to 100% of the icon height */
+    object-fit: cover; /* Maintain the aspect ratio and cover the icon */
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .box {
+    width: 130px;
+    height: 130px;
+    background-color: lightgray;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 8px;
+  }
+  .boxes{
+    height: fit-content;
+    background-color: rgb(192, 191, 189);
+    display: flex;
+    text-align: center;
+  height: 50px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 8px;
+  }
+  
+  .box img {
+    width: 100%; /* Set the image width to 100% of the box width */
+    height: 100%; /* Set the image height to 100% of the box height */
+    object-fit: cover; /* Maintain the aspect ratio and cover the box */
+  }
+  .dpzone{
+    margin-top: 35px;
+  }
+  
+
+  
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  main {
+      padding: 20px;
+  }
+  
+  .container {
+      max-width: 800px;
+      margin: 0 auto;
+  }
+  
+  .dropzone {
+      border: 2px dashed #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+  }
+  
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  
