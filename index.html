@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Kanit:wght@600&display=swap" rel="stylesheet">
+    <title>vazhavilayil rebin Music mixer</title>
+</head>
+<body>
+  <div class="grid-con">
+
+    <h1 class="col-span-4 m-col-span-12 l-col-span-12 top">Music Mixer</h1>
+  </div>
+
+
+    <div class="icons">
+      <div class="grid-con ">
+      <div class="icon col-span-2 m-col-span-4 l-col-span-4 box" id="icon1" draggable="true">
+        <img src="./images/drum-kit-svgrepo-com.svg" alt="Image 1">
+        <audio id="audio1" src="./assets/drums.wav"></audio>
+      </div>
+      <div class="icon col-span-2 m-col-span-4 l-col-span-4 box" id="icon2" draggable="true">
+        <audio id="audio2" src="./assets/guitar1.wav"></audio>
+        <img src="./images/guitar-svgrepo-com (1).svg" alt="Image 2">
+      </div>
+      <div class="icon col-span-2 m-col-span-4 l-col-span-4 box" id="icon3" draggable="true">
+      <audio id="audio3" src="./assets/piano1.wav"></audio>
+      <img src="./images/piano.svg" alt="Image 3">
+    </div>
+    <div class="icon col-span-2 m-col-span-4 l-col-span-4 box" id="icon4" draggable="true">
+      <audio id="audio4" src="./assets/violin1.wav"></audio>  
+      <img src="./images/violin-svgrepo-com.svg" alt="Image 4">
+    </div>
+    <div class="icon col-span-2 m-col-span-4 l-col-span-4 box" id="icon5" draggable="true">
+      <img src="./images/xylophone-svgrepo-com.svg" alt="Image 5">
+      <audio id="audio5" src="./assets/gotcha-mountaineer-main-version-02-09-17987.mp3"></audio>
+    </div>
+    <div class="icon col-span-2 m-col-span-4 l-col-span-4 box" id="icon6" draggable="true">
+      <img src="./images/turntable-svgrepo-com.svg" alt="Image 6">
+      <audio id="audio6" src="./assets/gravity-aavirall-main-version-01-41-13965.mp3"></audio>
+    </div>
+  </div>
+  </div>
+
+<div class="grid-con">
+  <h2 class="col-span-4 m-col-span-12 l-col-start-4 l-col-end-10 boxes dpzone">Drop Zones</h2>
+</div>
+  <div class="container ">
+    <div class="grid-con">
+    <div class="col-span-2 m-col-span-3 l-col-span-3  box" id="box1"></div>
+    <div class="col-span-2 m-col-span-3 l-col-span-3 box" id="box2"></div>
+    <div class="col-span-2 m-col-span-3 l-col-span-3 box" id="box3"></div>
+    <div class="col-span-2 m-col-span-3 l-col-span-3 box" id="box4"></div>
+    </div>
+  </div>  
+  <div class="buttons">
+  <button id="resetButton">Reset</button>
+  <button id="pauseButton">Pause</button>
+</div>
+ 
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
